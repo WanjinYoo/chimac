@@ -1,19 +1,118 @@
-html,body {
-	background-color : white;
-  margin:0;
-  padding: 0;
-  width :100%;
-
+.Menu{
+   background-image: url("images/Menu.jpg");
+   background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    height: 100vh;
 
 }
+.parallax { 
+    background-image: url("images/ChickenM.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    height: 130vh;
+
+}
+.about {
+    position: absolute;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    color:white;
+    font-size: 120px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.reserve {
+    position: absolute;
+    font-family: t26-carbon, monospace;
+    font-size: 70px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.top-menu{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.footer {
+   position: fixed;
+
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: grey;
+   color: white;
+   text-align: center;
+}
+
+
+
+.aboutp { 
+    background-image: url("images/about.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.reservation{
+   background-image: url("images/reservation.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    height: 750px;
+
+}
+.button {
+     transform: translate(-50%, -50%);
+     top: 75%;
+    left: 50%;
+    position: absolute;
+}
+
+.parallax2 { 
+
+    background-image: url("images/Chicken2.png");
+    height: 300px; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax3 { 
+
+    background-image: url("images/Chicken3.jpg");
+    height: 300px; 
+   
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container2 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
 .logo{
   position: fixed;
   float: left;
-  margin: 16px 36px;
- color: brown;
-  font-weight:bold;
-  font-size:24px;
-   font-family: 'Shadows Into Light', cursive;
+  margin: 7.5px 30px;
 }
 .misc{
 
@@ -25,9 +124,47 @@ html,body {
 nav{
   position:fixed;
   width:100%;
-  z-index: 99999;
+ z-index: 501;
+
 
 }
+label
+ {
+
+  display: inline-block;
+   padding: 12px 12px 12px 0;
+   font-size :20px;
+   width :100%;
+}
+
+.mytext {
+  width:80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  box-sizing: border-box;
+
+}
+
+
+.container3 {
+
+  border-radius: 1px;
+  background-color: #f2f2f2;
+  padding: 40px;
+
+}
+input[type=submit] {
+  background-color: darkred;
+  color: white;
+  border-radius: 1000px;
+  cursor: pointer;
+   border: none;
+  padding: 12px 20px;
+
+}
+
 nav ul{
   list-style: none;
   background: rgba(0,0,0,0);
@@ -36,9 +173,12 @@ nav ul{
   text-align: center;
   margin: 0;
   transition: 1s;
+
+
 }
 nav.black ul{
     background: #fff;
+
 
   }
 
@@ -51,12 +191,14 @@ nav.black ul{
 nav ul li{
   display: inline-block;
   padding: 20px;
+
 }
 
 nav ul li a{
   text-decoration: none;
   color: #fff;
   font-size: 20px;
+
 }
 
 .menu-icon {
@@ -76,7 +218,7 @@ nav ul li a{
   .logo{
     position: fixed;
     top: 0;
-    margin-top :16px;
+    margin-top :4.5px;
   }
     nav ul{
       max-height: 0px;
@@ -86,6 +228,8 @@ nav ul li a{
 
       background: #000;
     }
+   
+
     .showing{
       max-height: 22em;
     }
@@ -103,10 +247,12 @@ nav ul li a{
       width: 100%;
       padding: 24px 0;
       text-align: center;
-      color : #fff;
-      
-      
+      color : #fff;  
     }
+     nav.black ul li a{
+    color: #fff
+      }
+
 
     .menu-icon{
       display: block;
@@ -130,19 +276,26 @@ hr {
     opacity: 0.8;
 }
 
-.parallax { 
-    background-image: url("images/Chicken2.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-    height: 100vh;
 
+
+
+}
+
+.price {
+  float : right;
+  font-weight: bold; 
+  font-family: 'Meie Script', cursive; 
 }
 
 .h1{
     color : gray;
+}
+.bigHr {
+    background-color: dimgrey !important;
+    color: dimgrey !important;
+    border: 1px dimgrey !important;
+    height: 2px !important;
+   
 }
 h3.title{ 
   font-family: 'Meie Script', cursive; 
@@ -150,10 +303,19 @@ h3.title{
   color : brown;
 }
 
+h5.menu {
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
 p.text{
   font-family: 'Shadows Into Light', cursive;
    text-align: center;
     font-weight: bold;
+}
+p.menu {
+   font-family: Tahoma, Geneva, sans-serif;
+   font-size: 13px;
+
 }
 .fh5co-project {
   margin-bottom: 30px;
@@ -261,27 +423,6 @@ p.text{
     height: auto;
 }
 
-.parallax2 { 
-
-    background-image: url("images/Chicken2.png");
-    height: 300px; 
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.parallax3 { 
-
-    background-image: url("images/Chicken3.jpg");
-    height: 300px; 
-   
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 
 .container2 {
     position: relative;
@@ -297,53 +438,76 @@ p.text{
     font-size: 40px;
     top: 70%;
     left: 50%;
+    
+}
+
+.subtext2 {
+    position: absolute;
+    font-family: t26-carbon, monospace;
+    text-shadow: 2px 1px red;
+    color: white;
+    font-size: 40px;
+    top: 63%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
-.top-menu{
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-.footer {
-   position: fixed;
+.subtext3 {
+    position: absolute;
+    font-family: t26-carbon, monospace;
+    text-shadow: 2px 1px red;
+    color: white;
+    font-size: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: grey;
-   color: white;
-   text-align: center;
-}
-.glow {
-  font-size: 150px;
-  font-family: cursive;
-  position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-  color: #fff;
-  text-align: center;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
 }
 
-@-webkit-keyframes glow {
-  from {
-     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-  }
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-  }
+@media screen and (max-width: 900px) {
+
+.subtext2 {
+    position: absolute;
+    font-family: t26-carbon, monospace;
+    text-shadow: 2px 1px red;
+    color: white;
+    font-size: 30px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.subtext3 {
+    position: absolute;
+    font-family: t26-carbon, monospace;
+    text-shadow: 2px 1px red;
+    color: white;
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-@media only screen and (max-width: 640px){
+@media screen and (max-width: 768px) {
 
-  .glow{
-    font-size:80px;
-  }
-  .subtext{
-    font-size:40px;
-  }
+.subtext2 {
+    position: absolute;
+    font-family: t26-carbon, monospace;
+    text-shadow: 2px 1px red;
+    color: white;
+    font-size: 25px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.subtext3 {
+    position: absolute;
+    font-family: t26-carbon, monospace;
+    text-shadow: 2px 1px red;
+    color: white;
+    font-size: 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 }
 
 
