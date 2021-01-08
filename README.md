@@ -8,7 +8,7 @@ The reservation system sends an confirmation email to both a customer and the re
 
 ## Setup
 
-Install xampp to run php load php file.
+Install xampp to load php file.
 
 ## Final Product
  **Main**
