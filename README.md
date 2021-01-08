@@ -1,5 +1,5 @@
 # RoomforR
-Commercial website for Chimac restaurant in Victoria.
+Commercial responsive website for Chimac restaurant in Victoria.
 
 Javascript,Html,php, and css were used to create the website.
 
@@ -11,15 +11,15 @@ The reservation system sends an confirmation email to both a customer and the re
 Install xampp to run php load php file.
 
 ## Final Product
- **Searchbar**
+ **Main**
 !["main"](https://github.com/WanjinYoo/chimac/blob/master/photos/main.png)
-  **Map**
+  **Main_bottom**
 !["main_bottom"](https://github.com/WanjinYoo/chimac/blob/master/photos/main_bottom.png)
- **Match**
+ **about**
 !["about"](https://github.com/WanjinYoo/chimac/blob/master/photos/about.png)
- **Mylist**
+ **menu**
 !["menu"](https://github.com/WanjinYoo/chimac/blob/master/photos/menu.png)
- **login**
+ **reservation**
 !["reservation"](https://github.com/WanjinYoo/chimac/blob/master/photos/reservation.png)
 
 
