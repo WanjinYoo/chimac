@@ -1,4 +1,4 @@
-# RoomforR
+# CHIMAC
 Commercial responsive website for Chimac restaurant in Victoria.
 
 Javascript,Html,php, and css were used to create the website.
